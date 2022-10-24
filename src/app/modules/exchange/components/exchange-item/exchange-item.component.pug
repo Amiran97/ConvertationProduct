@@ -1,0 +1,10 @@
+mat-card
+    mat-card-title.mb.text-center 
+    mat-card-content.container-flex-column
+        mat-form-field(appearance="fill")
+            mat-label Select currency
+            mat-select([(ngModel)]="selectedCurrency", name="item", (selectionChange)="changeCurrency()")
+                mat-option(*ngFor="let item of exchanges | currencyFilter", [value]="item.cc") {{item.cc}}
+        mat-form-field.example-full-width(appearance="fill")
+            mat-label Amount
+            input(matInput #amouter type="number" placeholder="Enter number", [value]="selectedAmount", (change)="changeAmount(amouter.value)")

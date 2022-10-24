@@ -1,0 +1,12 @@
+.head-items-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.head-item {
+    margin-left: 5px;
+    border: 1px gray solid;
+    border-radius: 3px;
+    padding: 0px 8px 0px 8px;
+}

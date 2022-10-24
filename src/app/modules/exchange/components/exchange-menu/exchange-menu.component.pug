@@ -1,0 +1,5 @@
+mat-card.card-center-container
+    mat-card-title.mb.text-center Exchanger
+    mat-card-content.card-content-flex
+        app-exchange-item((onChangeCurrency)="changeCurrencyFirst($event)", (onChangeAmount)="changeAmountFirst($event)", [selectedAmount]="firstResultAmount", [exchanges]="exchanges")
+        app-exchange-item.ml((onChangeCurrency)="changeCurrencySecond($event)" , (onChangeAmount)="changeAmountSecond($event)", [selectedAmount]="secondResultAmount", [exchanges]="exchanges")

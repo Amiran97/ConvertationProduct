@@ -1,0 +1,4 @@
+mat-toolbar
+  span Converting Application
+  .head-items-container
+    span.head-item(*ngFor="let item of data | currencyFilter:['UAH']") {{ item.cc }} : {{item.rate}}
