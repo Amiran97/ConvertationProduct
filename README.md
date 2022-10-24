@@ -1,27 +1,22 @@
-# ConvertingApp
+ConvertationProductITOP1000
+The project is a test task for ITOP1000! This project was generated with Angular CLI version 13.1.2.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+Getting started with Angular
+To work with Angular, you need to install the Node.js server and the npm package manager if they are not on the working machine. At the same time, no special knowledge is required to work with NodeJS and npm. You can use the node.js installer to install. It will also install npm along with the server.
 
-## Development server
+Installing the Angular CLI
+To compile the application, we will use the Angular CLI framework. Angular CLI makes it easy to create an application and compile it. Angular CLI is distributed as an npm package, so you must first install it in order to use it. To install the Angular CLI, open the console/command line and run the following command in it: npm install -g @angular/cli
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Download or clone a project
+Use the console/command line or IDE to clone the repository. You can also download the ZIP archive of the project from GitHub.
 
-## Code scaffolding
+Installing packages. package.json
+Open a console/command line and go to the project folder in it using the cd command. And then run the npm install command, which will install all the necessary modules.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Launch of the project
+And now that everything is ready, we can start the project. To do this, in the command line (terminal), run the command npm start
 
-## Build
+After the command line (terminal) reports that it has collected and launched the project, go to http://localhost:4200/
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Feedback
+I accept questions by email todua.amiran97@gmail.com!
